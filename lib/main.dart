@@ -29,7 +29,8 @@ class MyApp extends StatelessWidget {
               // or simply save your changes to "hot reload" in a Flutter IDE).
               // Notice that the counter didn't reset back to zero; the application
               // is not restarted.
-              primaryColor: current.color,
+              appBarTheme:
+                  AppBarTheme.of(context).copyWith(color: current.color),
             ),
             home: MyHomePage(
               title: '${current.name} Demo Page',
@@ -97,6 +98,7 @@ class EnvironmentButtons extends StatelessWidget {
 
   Widget button(String text) => MaterialButton(
         color: env.color,
+        textColor: Colors.white,
         onPressed: () {},
         child: Text(text),
       );

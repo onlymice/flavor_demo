@@ -5,17 +5,24 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "flavor_demo",
+            "name": "flavor_demo blue",
             "request": "launch",
             "type": "dart",
             "args": ["--flavor", "blue"]
 
         },
         {
-            "name": "flavor_demo",
+            "name": "flavor_demo green",
             "request": "launch",
             "type": "dart",
             "args": ["--flavor", "green"]
+
+        },
+        {
+            "name": "flavor_demo red",
+            "request": "launch",
+            "type": "dart",
+            "args": ["--flavor", "red"]
 
         },
         {

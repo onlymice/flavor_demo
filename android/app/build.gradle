@@ -77,7 +77,7 @@ android {
         red {
             dimension "default"
             resValue "string", "app_name", "red flavor demo"
-            applicationIdSuffix ".free"
+            applicationIdSuffix ".red"
         }
 }
 }
